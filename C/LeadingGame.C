@@ -3,7 +3,8 @@
 int main(void)
 {
     int cases, roundScore[2], score[2] = {0, 0}, largest[2] = {0, 0};
-
+    
+    printf("\nEnter the number of Rounds: ");
     scanf("%d", &cases);
 
     while (cases--)
